@@ -7,13 +7,14 @@ class Ship {
         this.level = level;
     }
     pucaj() {
-        return "BANG";
+        var shootSound = "BANG";
+        return shootSound;
     }
     idilevo() {
-        console.log(this.message);
+        return "<<<<<";
     }
     ididesno() {
-        console.log(this.message);
+        return ">>>>>>";
     }
 }
 exports.Ship = Ship;

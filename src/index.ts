@@ -6,15 +6,17 @@ export class Ship {
         this.message = message;
         this.level = level;
     }
-
+    
     public pucaj(): string {
-        return "BANG";
+        var shootSound = "BANG";
+        return shootSound;
     }
-
+    
     public idilevo(): void {
-        console.log(this.message);
+        return "<<<<<";
     }
+    
     public ididesno(): void {
-        console.log(this.message);
+        return ">>>>>>";
     }
 }
