@@ -7,16 +7,15 @@ export class Ship {
         this.level = level;
     }
     
-    public pucaj(): string {
-        var shootSound = "BANG";
-        return shootSound;
+    public pucaj(sound: string): string {
+        return sound;
     }
     
-    public idilevo(): void {
+    public idilevo(): string {
         return "<<<<<";
     }
     
-    public ididesno(): void {
-        return ">>>>>>";
+    public ididesno(): string {
+        return ">>>>>";
     }
 }

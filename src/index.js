@@ -6,15 +6,14 @@ class Ship {
         this.message = message;
         this.level = level;
     }
-    pucaj() {
-        var shootSound = "BANG";
-        return shootSound;
+    pucaj(sound) {
+        return sound;
     }
     idilevo() {
         return "<<<<<";
     }
     ididesno() {
-        return ">>>>>>";
+        return ">>>>>";
     }
 }
 exports.Ship = Ship;
